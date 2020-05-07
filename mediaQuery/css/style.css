@@ -1,0 +1,41 @@
+/* @media (min-width: 576px){
+    body{
+        background: blue;
+    }
+}
+@media (min-width: 768px){
+    body{
+        background:red;
+    }
+}
+@media (min-width: 992px){
+    body{
+        background:yellow;
+    }
+}
+@media (min-width: 1200px){
+    body{
+        background:lime;
+    }
+} */
+
+@media (max-width: 575px){
+    body{
+        background: blue;
+    }
+}
+@media (max-width: 767px){
+    body{
+        background:red;
+    }
+}
+@media (max-width: 991px){
+    body{
+        background:yellow;
+    }
+}
+@media (max-width: 1199px){
+    body{
+        background:lime;
+    }
+}

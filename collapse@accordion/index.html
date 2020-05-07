@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap4</title>
+    <script src="https://kit.fontawesome.com/0a1efc67ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="margin-top-50px bg-primary text-center p-3">header</div>
+  <div class="container">
+    <button class="btn btn-success mb-4 mt-4" data-target="#collapse-1" data-toggle="collapse">Read more</button>
+    <div class="collapse" id="collapse-1">
+      <div class="card">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores impedit, nemo earum temporibus excepturi eum rem maxime enim dignissimos. Asperiores est nulla illum quas velit nostrum perferendis, possimus fugit doloremque!
+        </div>
+      </div>
+    </div>
+    <div id="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header" role="tab">
+          <h5 class="mb-0">
+            <a href="#section-1" data-toggle="collapse">Section 1</a>
+          </h5>
+        </div>
+      </div>
+      <div class="collapse show" id="section-1" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, explicabo!
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab">
+          <h5 class="mb-0">
+            <a href="#section-2" data-toggle="collapse">Section 2</a>
+          </h5>
+        </div>
+      </div>
+      <div class="collapse" id="section-2" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, explicabo!
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab">
+          <h5 class="mb-0">
+            <a href="#section-3" data-toggle="collapse">Section 3</a>
+          </h5>
+        </div>
+      </div>
+      <div class="collapse" id="section-3" data-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, explicabo!
+        </div>
+      </div>
+    </div>
+  </div>    
+  <br><br><br><br>
+  <div class="margin-top-50px bg-success text-center p-3">footer</div>
+  <script src="js/jquery-slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

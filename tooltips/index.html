@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap4</title>
+    <script src="https://kit.fontawesome.com/0a1efc67ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="margin-top-50px bg-primary text-center p-3">header</div>
+  <div class="container">
+    <button class="btn btn-primary mt-3" title="Hello World!" data-placement="top" data-toggle="tooltip">Tooltip on top</button>
+    <button class="btn btn-primary mt-3" title="Hello World!" data-placement="left" data-toggle="tooltip">Tooltip on left</button>
+    <button class="btn btn-primary mt-3" title="Hello World!" data-placement="right" data-toggle="tooltip">Tooltip on right</button>
+    <button class="btn btn-primary mt-3" title="Hello World!" data-placement="bottom" data-toggle="tooltip">Tooltip on bottom</button>
+    <br><br><br>
+    <button class="btn btn-primary mt-3" title="<h1>Hello World!</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, et?</p>" data-placement="top" data-toggle="tooltip" data-html="true">Tooltip on top</button>
+    <br><br><br><br>
+    <button id="tool" class="btn btn-danger" title="Hello world!" data-placement="top" data-toggle="tooltip" onclick="showToolTip()">show tooltip</button>
+    <button id="hid" class="btn btn-danger" title="Hello world!" data-placement="top" data-toggle="tooltip" onclick="hideToolTip()">hide tooltip</button>
+    <br><br><br>
+
+
+
+    <button id="tog" onclick="toggleToolTip()" data-placement="top" data-toggle="tooltip" class="btn btn-info" title="Hello">toggle tooltip</button>
+  </div>    
+  <br><br><br><br>
+  <div class="margin-top-50px bg-success text-center p-3">footer</div>
+  <script src="js/jquery-slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
